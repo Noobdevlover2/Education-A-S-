@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title></title>
+    <style type="text/css">
+
+      *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+      }
+
+      .header{
+        width:100%;
+        min-height: 100vh;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner.png);
+        background-position: center;
+        background-size: cover;
+        display:flex;
+        justify-content: space-between;
+        position:relative;
+      }
+
+.header-sub-center{
+  position:absolute;
+  left:50%;
+  top:60%;
+transform:translate(-50%,-50%);
+}
+.header-sub-center h1{
+  font-size:70px;
+}
+.header-sub-center p{
+  font-size:25px;
+}
+.courses-div:hover{
+font-size:20px;
+
+  transition:.4s;
+}
+.layer{
+  width:100%;
+  height:100%;
+text-align: center;
+  position:absolute;
+  top:0;
+  left:0;
+    border-radius: 9px;
+}
+
+.layer:hover{
+  background: red;
+  opacity:.7;
+  box-shadow: 2px 3px 4px 5px #dddf;
+  transition:.5s;
+
+}
+.card{
+  width:300px;
+}
+.testo-card{
+  width:500px;
+  height:200px;
+  background: pink;
+  border-radius: 15px;
+  display:flex;
+}
+
+
+.left-testo{
+  width:140px;
+  height:100%;
+
+}
+.left-testo img{
+  width:70px;
+  height:70px;
+  border-radius: 50%;
+
+}
+
+.call{
+
+}
+
+
+.call{
+  width:80%;
+  height:300px;
+margin:auto;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner2.jpg);
+border-radius: 9px;
+position:relative;
+text-align: center;
+
+}
+.call>div{
+  position:absolute;
+  top:25%;
+
+}
+.call>div>p{
+  font-size:20px;
+}
+
+      </style>
+  </head>
+  <body>
+<div class="header">
+
+
+
+  <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bring">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class=" row  header-sub-center text-center">
+      <div class="col-lg-12  ">
+  <h1 class="text-white">Houston University</h1>
+  <P class="text-white">Come for learn GO for Create</P>
+  <button class="btn btn-danger">Visit Us To Know More</button>
+    </div>
+</div>
+
+</div>
+
+<div class="container bg-light">
+<!--courses start-->
+<div class="courses-title text-center my-3">
+  <h2>Courses We Offer</h2>
+  <h6>Choose wisely Be Creator</h6>
+</div>
+<div class="row m-2 p-3 justify-content-between">
+
+
+<div class=" courses-div col-lg-3 text-lg-center bg-info shadow rounded p-2 m-3">
+<h3>Intermedite</h3>
+<p>Nothing is impossible you just have to try a bit.
+  Nothing is impossible you just have to try a bit.
+Nothing is impossible you just have to try a bit.</p>
+</div>
+<div class="courses-div col-lg-3 text-lg-center bg-danger shadow rounded p-2 m-3">
+  <h3>Diploma</h3>
+  <p>Nothing is impossible you just have to try a bit.
+    Nothing is impossible you just have to try a bit.
+  Nothing is impossible you just have to try a bit.</p>
+</div>
+<div class="courses-div col-lg-3 text-lg-center bg-warning shadow rounded p-2 m-3">
+  <h3>Bachelor</h3>
+  <p>Nothing is impossible you just have to try a bit.
+    Nothing is impossible you just have to try a bit.
+  Nothing is impossible you just have to try a bit.</p>
+</div>
+
+</div>
+
+<!--courses Ebd-->
+
+
+<!--campus start-->
+<div class="campus-title text-center">
+  <h2>Our Global Campus</h2>
+  <h6>Our Campus is the most amazing campus in the world</h6>
+  </div>
+
+  <div class=" row campus justify-content-center">
+    <div class="card col-lg-4 m-3 rounded">
+      <img src="london.png" class="common-card rounded">
+      <div class="layer">
+<h2>London</h2>
+      </div>
+      </div>
+
+      <div class="card col-lg-4  m-3">
+        <img src="newyork.png" class="common-card">
+        <div class="layer">
+        <h2>Newyork</h2>
+        </div>
+        </div>
+        <div class="card col-lg-4  m-3">
+          <img src="washington.png" class="common-card">
+          <div class="layer">
+          <h2>Washington</h2>
+          </div>
+          </div>
+
+  </div>
+<!--campus End-->
+
+
+
+<section class="facilities text-center">
+<h1>Courses we offer</h1>
+<p>There Are 100+ courses available do what you like.</p>
+
+  </section>
+  <!--faci start-->
+<div class="row justify-content-center">
+
+  <div class="card col-lg-4 m-2">
+<img src="library.png">
+
+
+<div class="card-body text-center">
+<h2 class="card-title" >Library</h2>
+<p class="card-text">It has 5000 books </p>
+<button class=" btn btn-primary card-link">Give A tour</button>
+</div>
+
+
+  </div>
+
+  <div class="card col-lg-4 m-2">
+  <img src="basketball.png">
+
+
+  <div class="card-body text-center">
+  <h2 class="card-title" >Library</h2>
+  <p class="card-text">It has 5000 books </p>
+  <button class=" btn btn-primary card-link">Give A tour</button>
+  </div>
+
+
+  </div>
+
+
+  <div class="card col-lg-4 m-2">
+  <img src="cafeteria.png">
+
+
+  <div class="card-body text-center">
+  <h2 class="card-title" >Library</h2>
+  <p class="card-text">It has 5000 books </p>
+  <button class=" btn btn-primary card-link">Give A tour</button>
+  </div>
+
+
+  </div>
+
+
+
+</div>
+<!--faci End-->
+
+
+
+<section class="testomonials text-center">
+<h1>What our students says</h1>
+<p>long established fact that a reader will be distracted by the readable content of a page when looking</p>
+</section>
+
+
+<div class="">
+
+
+<div class="col-lg-12">
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="testo-card">
+  <div class="left-testo">
+    <img src="user1.jpg">
+  </div>
+
+  <div class="right-testo">
+    <h1>Jessie Chan</h1>
+    <p>long established fact that a reader will be distracted by the readable
+       content of a page when looking</p>
+  </div>
+
+</div>
+    </div>
+    <div class="carousel-item">
+      <div class="testo-card">
+  <div class="left-testo">
+    <img src="morningstar.jpg">
+  </div>
+
+  <div class="right-testo">
+    <h1>Jessie Chan</h1>
+    <p>long established fact that a reader will be distracted by the readable
+       content of a page when looking</p>
+  </div>
+
+</div>
+    </div>
+    <div class="carousel-item">
+      <div class="testo-card">
+  <div class="left-testo">
+    <img src="user2.jpg">
+  </div>
+
+  <div class="right-testo">
+    <h1>Jessie Chan</h1>
+    <p>long established fact that a reader will be distracted by the readable
+       content of a page when looking</p>
+  </div>
+
+</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+</div>
+<!--testomonials End-->
+
+
+<!--- Hey Ayesha I want text on this div img-->
+
+<!--How can i make this div img responsive using bootsttrap i know i can use img-fluid class but which div i place it?-->
+<div class="call">
+<div class=" carousel-caption">
+  <p>You can do the best courses online from around the world</p>
+<button>
+  Contact now
+</button>
+</div>
+
+</div>
+
+
+<!--- Hey Ayesha I want text on this div img-->
+</div>
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
